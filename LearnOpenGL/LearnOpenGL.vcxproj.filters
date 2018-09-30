@@ -23,7 +23,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="fragmentShader.frag" />
-    <None Include="vertexShader.vert" />
+    <None Include="shaders\vertexShader.vert" />
+    <None Include="shaders\fragmentShader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
