@@ -240,7 +240,7 @@ void processInput(GLFWwindow *window) {
 		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 	}
 
-	float cameraSpeed = 0.05f;
+	float cameraSpeed = 0.03f;
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
 		cameraPos += cameraSpeed * cameraFront;
 	}
